@@ -10,7 +10,7 @@ const PostSchema = new mongoose.Schema({
     type: Number,
     dafault:0,
   }
-},{
+}, {
   timestamps: true,
 });
 
