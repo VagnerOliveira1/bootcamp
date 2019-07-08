@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const PostSchema = new mongoose.Schema({
+const PostSchema = new mongoose.Schema({// representa a tabela do banco de dados em formato de JS
   author: String,
   place: String,
   description: String,
